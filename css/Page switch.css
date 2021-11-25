@@ -1,0 +1,65 @@
+.paging, .paging ul.page-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.paging {
+  z-index: 2;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  position: relative;
+  left: 0;
+  right: 0;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.paging ul.page-numbers {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+.paging, .paging ul.page-numbers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.paging ul.page-numbers li {
+  margin: 0 4px;
+}
+.paging ul.page-numbers .page-numbers, .paging ul.page-numbers .page-numbers:active, .paging ul.page-numbers .page-numbers:hover, .paging ul.page-numbers .page-numbers:visited {
+  color: #fff;
+  text-decoration: none;
+}
+@media screen and (max-width: 640px){
+.paging ul.page-numbers a, .paging ul.page-numbers span {
+  font-size: 17px;
+  height: 52px;
+  padding: 0 15px;
+  max-width: 60px;
+  line-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  color: #fff;
+}
+.paging ul.page-numbers .page-numbers.current, .paging ul.page-numbers .page-numbers.current:active, .paging ul.page-numbers .page-numbers.current:hover, .paging ul.page-numbers .page-numbers.current:visited, .paging ul.page-numbers .page-numbers:hover {
+  text-decoration: underline;
+}
+.paging ul.page-numbers .page-numbers, .paging ul.page-numbers .page-numbers:active, .paging ul.page-numbers .page-numbers:hover, .paging ul.page-numbers .page-numbers:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
+}
